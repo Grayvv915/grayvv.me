@@ -8,6 +8,9 @@ body {
     background-position-x: center;
     background-position-y: center;
     text-align: center;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 .webContainer {
     display: grid;
