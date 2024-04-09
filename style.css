@@ -35,7 +35,17 @@ h2 {
 #header1 {
     padding: 10%;
     font-size: 3.85em;
+    animation: inH1 2.4s ease;    
 }
+@keyframes inH1 {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 
 
 /**/
