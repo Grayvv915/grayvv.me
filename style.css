@@ -1,6 +1,6 @@
 body {
     color: royalblue;
-    background-image: url(gifbackground.gif);
+    background-color: black;
     background-position: center;
     background-repeat: repeat;
     background-size: 40%;
@@ -10,7 +10,16 @@ body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
+    animation: colorTrans 4s infinite alternate;
 }
+
+@keyframes colorTrans {
+    0% { background-color: black; }
+    50% { background-color: rgb(0, 8, 31); }
+    100% { background-color: rgb(0, 13, 49); }
+}
+
 .webContainer {
     display: grid;
 }
@@ -28,6 +37,26 @@ h2 {
     font-size: 3.85em;
 }
 
+
+/**/
+a {
+    color: rgb(138, 158, 220);
+    box-sizing: border-box;
+    text-decoration: none;
+    transition-duration: 0.5s;   
+}
+a:hover {
+    color: rgb(83, 116, 215);
+}
+/**/
+
+
+#header2imgs {
+    font-size: 120%;
+}
+
+/****************************************/
+
 .textContainer {
     margin-left: 11%;
     margin-right: 11%;
@@ -36,9 +65,21 @@ h2 {
     color: white;
     font-size: 150%;
 
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 0.5em;
+    box-shadow: 0 0 15px royalblue;
+}
+
+.ffs {
+    margin-left: 11%;
+    margin-right: 11%;
+
+    color: white;
+    font-size: 150%;
 
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 0.5em;
+    box-shadow: 0 0 15px royalblue;
 }
 
 .images {
@@ -52,31 +93,5 @@ h2 {
     margin-right: 11%;
 
     display: grid;
-}
-a {
-    color: rgb(138, 158, 220);
-    box-sizing: border-box;
-    text-decoration: none;
-    
-}
-a:hover {
-    color: rgb(83, 116, 215);
-}
-
-.ffs {
-    margin-left: 11%;
-    margin-right: 11%;
-
-    color: white;
-    font-size: 150%;
-
-
-    background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 0.5em;
-}
-
-/**************************/
-
-#header2imgs {
-    font-size: 120%;
+    box-shadow: 0 0 15px royalblue;
 }
