@@ -1,5 +1,5 @@
 body {
-    color: royalblue;
+    color: rgb(146, 30, 255);
     background-color: black;
     background-position: center;
     background-repeat: repeat;
@@ -16,8 +16,8 @@ body {
 
 @keyframes colorTrans {
     0% { background-color: black; }
-    50% { background-color: rgb(0, 8, 31); }
-    100% { background-color: rgb(0, 13, 49); }
+    50% { background-color: rgb(20, 4, 35 ); }
+    100% { background-color: rgb(33, 7, 57); }
 }
 
 .webContainer {
@@ -29,7 +29,7 @@ p {
 }
 
 h2 {
-    color: royalblue;
+    color: rgb(146, 30, 255);
 }
 
 #header1 {
@@ -50,13 +50,13 @@ h2 {
 
 /**/
 a {
-    color: rgb(138, 158, 220);
+    color: rgb(123, 57, 184);
     box-sizing: border-box;
     text-decoration: none;
     transition-duration: 0.5s;   
 }
 a:hover {
-    color: rgb(83, 116, 215);
+    color: rgb(176, 107, 242);
 }
 /**/
 
@@ -79,10 +79,10 @@ a:hover {
 
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 0.5em;
-    box-shadow: 0 0 15px royalblue;
+    box-shadow: 0 0 15px rgb(146, 30, 255);
 }
 
-.ffs {
+.proyects {
     margin-left: 11%;
     margin-right: 11%;
 
@@ -93,7 +93,7 @@ a:hover {
 
     background-color: rgb(0, 0, 0, 0.7);
     border-radius: 0.5em;
-    box-shadow: 0 0 15px royalblue;
+    box-shadow: 0 0 15px rgb(146, 30, 255);
 }
 
 .images {
@@ -109,10 +109,10 @@ a:hover {
     margin-right: 11%;
 
     display: grid;
-    box-shadow: 0 0 15px royalblue;
+    box-shadow: 0 0 15px rgb(146, 30, 255);
 }
 
 /***************************************/
 label {
-    color: royalblue;
+    color: rgb(146, 30, 255);
 }
