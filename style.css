@@ -70,7 +70,7 @@ a:hover {
     font-size: 163%;
 
     background-color: rgb(0, 0, 0, 0.7);
-    border-radius: 0.5em;
+    border-radius: 0.8em;
     box-shadow: 0 0 15px rgb(146, 30, 255);
 }
 
@@ -95,7 +95,7 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 240px;
+    width: 250px;
     border-radius: 50%;
     text-align: center;
 
