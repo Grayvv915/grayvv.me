@@ -42,6 +42,7 @@ h2 {
     #header1 {
         padding: 1%;
     }
+}
 
 /**/
 a {
@@ -75,7 +76,11 @@ a:hover {
     border-radius: 0.8em;
     box-shadow: 0 0 15px rgb(146, 30, 255);
 }
-
+@media (max-width: 600px) {
+    .box {
+        padding: 1%;
+    }
+}
 
 /***************************************/
 label {
