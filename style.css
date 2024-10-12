@@ -12,8 +12,6 @@ body {
     font-style: normal;
 
     animation: colorTrans 4s infinite alternate;
-
-    overflow-x: hidden;
 }
 
 @keyframes colorTrans {
