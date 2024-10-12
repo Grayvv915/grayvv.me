@@ -12,10 +12,12 @@ body {
     font-style: normal;
 
     animation: colorTrans 4s infinite alternate;
+
+    overflow-x: hidden;
 }
 
-audio {
-    display: none;
+* {
+  box-sizing: border-box;
 }
 
 @keyframes colorTrans {
@@ -40,6 +42,10 @@ h2 {
     padding: 3%;
     font-size: 4em;   
 }
+@media (max-width: 600px) {
+    #header1 {
+        padding: 1%;
+    }
 
 /**/
 a {
@@ -82,7 +88,8 @@ label {
 
 .img {
     display: flexbox;
-    height: 50px;
+    height: auto;
+    max-height: 50px;
     text-align: center;
 }
 
@@ -95,7 +102,8 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: auto;
+    max-width: 250px;
     border-radius: 50%;
     text-align: center;
 
