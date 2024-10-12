@@ -16,10 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @keyframes colorTrans {
     0% { background-color: black; }
     50% { background-color: rgb(20, 4, 35 ); }
