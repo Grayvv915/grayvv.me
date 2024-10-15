@@ -3,7 +3,7 @@ body {
     background-color: black;
     background-position: center;
     background-repeat: repeat;
-    background-size: 40%;
+    background-size: auto;
 
     text-align: center;
 
@@ -14,14 +14,10 @@ body {
     animation: colorTrans 4s infinite alternate;
 }
 
-audio {
-    display: none;
-}
-
 @keyframes colorTrans {
     0% { background-color: black; }
     50% { background-color: rgb(20, 4, 35 ); }
-    100% { background-color: rgb(33, 7, 57); }
+    100% { background-color: #3C0352; }
 }
 
 .webContainer {
@@ -39,6 +35,12 @@ h2 {
 #header1 {
     padding: 3%;
     font-size: 4em;   
+}
+@media (max-width: 600px) {
+    #header1 {
+        padding: 1%;
+        font-size: 2.5em;
+    }
 }
 
 /**/
@@ -73,7 +75,14 @@ a:hover {
     border-radius: 0.8em;
     box-shadow: 0 0 15px rgb(146, 30, 255);
 }
-
+@media (max-width: 600px) {
+    .box {
+        padding: 1%;
+        font-size: 120%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
 
 /***************************************/
 label {
@@ -82,8 +91,13 @@ label {
 
 .img {
     display: flexbox;
-    height: 50px;
+    max-height: 50px;
     text-align: center;
+}
+@media (max-width: 600px) {
+    .img {
+        height: 35px;
+    }
 }
 
 #wbc {
@@ -95,10 +109,16 @@ label {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
+    width: auto;
+    max-width: 250px;
     border-radius: 50%;
     text-align: center;
 
     border-radius: 50%;
     box-shadow: 0 0 15px rgb(146, 30, 255);
+}
+@media (max-width: 600px) {
+    .front-img {
+        height: 165px;
+    }
 }
